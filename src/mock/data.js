@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'https://media.licdn.com/dms/image/C5603AQEQvjYBNtgt2Q/profile-displayphoto-shrink_800_800/0/1649897896533?e=1675900800&v=beta&t=zeYoowdnW3gv813nID3XNCPvqwuy_fRL8OK1aBsWCaA',
   paragraphOne: 'My name is Ashwin Chembu and I am currently a Computer Engineering student at UC Santa Cruz. My interest in coding began with holding conversations with Siri and realizing its potential, and furthered into going through Codecademy courses and Minecraft mods.',
-  paragraphTwo: 'I've experimented with a variety of programming languages and built interesting projects with them. I hope to explore and contribute to the fields of data analytics, machine learning and cybersecurity by joining the workforce and building new tools.',
+  paragraphTwo: "I've experimented with a variety of programming languages and built interesting projects with them. I hope to explore and contribute to the fields of data analytics, machine learning and cybersecurity by joining the workforce and building new tools.",
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'kevin-bacon.png',
     title: 'Six Degrees of Kevin Bacon',
-    info: 'Using a text file consisting of movie names and actors, I was able to determine a path from one actor to another based on the movies they and their costars have acted in. Utilizing Graphs and a Breadth First Search algorithm, I was able to find the shortest number of connections required to connect these actors. This project was based on the pop-culture game Six Degrees of Kevin Bacon(Bacon's Law).',
+    info: "Using a text file consisting of movie names and actors, I was able to determine a path from one actor to another based on the movies they and their costars have acted in. Utilizing Graphs and a Breadth First Search algorithm, I was able to find the shortest number of connections required to connect these actors. This project was based on the pop-culture game Six Degrees of Kevin Bacon(Bacon's Law).",
     info2: '',
     repo: 'https://github.com/ashw24/Projects/tree/main/C%2B%2B%20Projects%20-%20Data%20Structures%20and%20Algorithms/six-degrees-of-kevin-bacon"><img src="https://images.squarespace-cdn.com/content/v1/53cdd8f4e4b0c984e433fab1/1520818869918-RZ4I444SU983ANA4CLCF/kevin-bacon.png?format=1000w', // if no repo, the button will not show up
   },
