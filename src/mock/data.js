@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'https://media.licdn.com/dms/image/C5603AQEQvjYBNtgt2Q/profile-displayphoto-shrink_800_800/0/1649897896533?e=1675900800&v=beta&t=zeYoowdnW3gv813nID3XNCPvqwuy_fRL8OK1aBsWCaA',
+  img: 'ashwin.jpg',
   paragraphOne: 'My name is Ashwin Chembu and I am currently a Computer Engineering student at UC Santa Cruz. My interest in coding began with holding conversations with Siri and realizing its potential, and furthered into going through Codecademy courses and Minecraft mods.',
   paragraphTwo: "I've experimented with a variety of programming languages and built interesting projects with them. I hope to explore and contribute to the fields of data analytics, machine learning and cybersecurity by joining the workforce and building new tools.",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
