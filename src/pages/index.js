@@ -15,7 +15,6 @@ export default () => {
         <title>{title || 'Gatsby Simplefolio'}</title>
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'Gatsby Simplefolio'} />
-        <link rel="icon" href="favicon.jpeg">
       </Helmet>
       <App />
     </>
