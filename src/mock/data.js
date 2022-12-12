@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'kevin-bacon.png',
     title: 'Six Degrees of Kevin Bacon',
     info: "Using a text file consisting of movie names and actors, I was able to determine a path from one actor to another based on the movies they and their costars have acted in. Utilizing Graphs and a Breadth First Search algorithm, I was able to find the shortest number of connections required to connect these actors. This project was based on the pop-culture game Six Degrees of Kevin Bacon(Bacon's Law).",
-    repo: 'https://github.com/ashw24/Projects/tree/main/C%2B%2B%20Projects%20-%20Data%20Structures%20and%20Algorithms/six-degrees-of-kevin-bacon">', // if no repo, the button will not show up
+    repo: 'https://github.com/ashw24/Projects/tree/main/C%2B%2B%20Projects%20-%20Data%20Structures%20and%20Algorithms/six-degrees-of-kevin-bacon', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
