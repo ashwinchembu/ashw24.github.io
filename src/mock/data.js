@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'ashwin.jpeg',
   paragraphOne: 'My name is Ashwin Chembu and I am currently a Computer Engineering student at UC Santa Cruz. My interest in coding began with holding conversations with Siri and realizing its potential, and furthered into going through Codecademy courses and Minecraft mods.',
   paragraphTwo: "I've experimented with a variety of programming languages and built interesting projects with them. I hope to explore and contribute to the fields of data analytics, machine learning and cybersecurity by joining the workforce and building new tools.",
-  paragrapthThree: "I'm a college student with 2-3 years of hands-on experience in customer service, data analytics, machine learning, and software development. Set to graduate mid-2024, I'm currently looking for software engineering roles for Spring/Summer 2023.",
+  paragraphThree: "I'm a college student with 2-3 years of hands-on experience in customer service, data analytics, machine learning, and software development. Set to graduate mid-2024, I'm currently looking for software engineering roles for Spring/Summer 2023.",
   resume: 'https://docs.google.com/document/d/13MWKISAPOQsVUKAKoQK-U2RD5i-nxI81TS9SHop_81I/edit?usp=sharing', // if no resume, the button will not show up
 };
 
