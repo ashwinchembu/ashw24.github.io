@@ -37,7 +37,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'myq.jpg',
     title: 'NQueens Without Recursion',
-    info: 'Utilizing the stack data structure, I was able to simulate recursion with backtracking and solve the n-queens problem. The n-queens problem takes a chessboard of size n and existing queens and utilizes that information to determine where n queens can be placed without attacking one another.',
+    info: 'In this project, I wrote a C++ program that solves the N Queens problem using a stack-based backtracking algorithm. The N Queens problem consists of placing N queens on an NxN chessboard such that no two queens attack each other and can be represented as a search tree, with each level corresponding to a row and each child representing a possible placement. My program starts at the root of the tree and pushes nodes onto a stack as it traverses, and pops nodes off the stack when it backtracks. This project demonstrates my ability to implement a non-recursive backtracking algorithm and use it to solve a classic computer science problem.',
     repo: 'https://github.com/ashw24/Projects/tree/main/C%2B%2B%20Projects%20-%20Data%20Structures%20and%20Algorithms/nqueens-without-recursion', // if no repo, the button will not show up
   },
   {
