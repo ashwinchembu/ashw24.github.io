@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'ashwin.jpeg',
-  paragraphOne: 'My name is Ashwin Chembu and I am currently a Computer Engineering student at UC Santa Cruz. My interest in coding began with holding conversations with Siri and realizing its potential, and furthered into going through Codecademy courses and Minecraft mods.',
-  paragraphTwo: "I've experimented with a variety of programming languages and built interesting projects with them. I hope to explore and contribute to the fields of data analytics, machine learning and cybersecurity by joining the workforce and building new tools.",
-  paragraphThree: "I'm a college student with 2-3 years of hands-on experience in customer service, data analytics, machine learning, and software development. Set to graduate mid-2024, I'm currently looking for software engineering roles for Spring/Summer 2023.",
+  paragraphOne: 'My name is Ashwin Chembu and I am a Computer Engineering student at UC Santa Cruz with a competitive GPA and certifications in data science and cloud computing. I have developed a strong foundation in programming and a passion for technology, and I have 2-3 years of hands-on experience in customer service, data analytics, machine learning, and software development.',
+  paragraphTwo: "I am highly motivated to continue learning and growing as a professional, and I am seeking internship opportunities in spring and summer 2023 to gain professional work experience and further develop my skills. I am a dedicated and hardworking individual with strong time management and teamwork skills, and I am eager to make a meaningful contribution to the field through the development of innovative tools and solutions.",
+  paragraphThree: "I am set to graduate in mid-2024, and my goal is to explore and contribute to the fields of data analytics, machine learning, and cybersecurity. If you are looking for a motivated intern with a solid foundation in computer science, a competitive GPA, and practical experience in a variety of technical fields, please don't hesitate to reach out. I am confident that my technical skills, strong work ethic, and dedication to learning make me a valuable asset to any team.",
   resume: 'https://drive.google.com/file/d/1PLhW6o0MAl8Kwog-alQz7kf_rWV0c1L3/view?usp=sharing', // if no resume, the button will not show up
 };
 
