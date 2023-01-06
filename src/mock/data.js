@@ -44,7 +44,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'sodukopuzzle.png',
     title: 'Sudoku/SAT Solver',
-    info: 'Developed a machine learning algorithm that utilized the Glucose SAT solver and Python in order to solve boolean expressions in Sudoku format by parsing through multi-dimensional arrays.',
+    info: ' I wrote a Python program that uses the boolean satisfiability (SAT) problem to solve Sudoku puzzles. Given a partially filled-in grid, the goal is to fill in the remaining cells such that every row, column, and 3x3 subgrid contains the digits 1 through 9 without repetitions. This problem can be represented as a boolean formula, where each cell corresponds to a boolean variable and the constraints are represented using logical clauses. I used the pycosat library to find a satisfying assignment and implemented a function to convert the boolean formula into conjunctive normal form using the Tseitin transformation.',
     repo: 'https://github.com/ashw24/Projects/blob/main/Python%20Projects(Data%20Structures%20and%20Algorithms)/Sudoku-SAT%20Solver.ipynb', // if no repo, the button will not show up
   },
 ];
