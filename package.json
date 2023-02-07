@@ -1,61 +1,37 @@
 {
-  "name": "@wkocjan/gatsby-theme-intro",
-  "description": "Personal branding theme for developers",
-  "version": "2.0.1",
-  "main": "index.js",
-  "author": "Wojciech Kocjan <wojciech@kocjan.net>",
+  "name": "gatsby-starter-stellar",
+  "description": "Gatsby Starter - Stellar by HTML5 UP",
+  "version": "1.0.0",
+  "author": "Hunter Chang",
   "dependencies": {
-    "autoprefixer": "^10.2.5",
-    "color": "^3.1.3",
-    "gatsby-plugin-image": "^1.0.1",
-    "gatsby-plugin-postcss": "^4.0.0",
-    "gatsby-plugin-react-helmet": "^4.0.0",
-    "gatsby-plugin-react-svg": "^3.0.0",
-    "gatsby-plugin-sharp": "^3.0.1",
-    "gatsby-source-filesystem": "^3.0.0",
-    "gatsby-transformer-sharp": "^3.0.0",
-    "gatsby-transformer-yaml": "^3.0.0",
-    "gatsby": "^3.0.0",
-    "postcss-input-range": "^4.0.0",
-    "postcss": "^8.2.8",
-    "prettier": "^2.2.1",
-    "prop-types": "^15.7.2",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "react-icons": "^4.2.0",
-    "react": "^17.0.1",
-    "tailwindcss": "^2.0.3"
-  },
-  "peerDependencies": {
-    "gatsby": "^3.0.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "gatsby": "^2.19.32",
+    "gatsby-plugin-manifest": "^2.2.44",
+    "gatsby-plugin-offline": "^3.0.37",
+    "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-sass": "^2.1.30",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1",
+    "react-scroll-to-element": "^0.2.0",
+    "react-scrollspy": "^3.4.2",
+    "react-waypoint": "^9.0.2"
   },
   "keywords": [
-    "gatsby",
-    "gatsby-plugin",
-    "gatsby-theme",
-    "gatsby-theme-intro",
-    "personal",
-    "react",
-    "website"
+    "gatsby"
   ],
-  "engines": {
-    "node": ">=12.0.0"
-  },
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wkocjan/gatsby-theme-intro"
-  },
-  "bugs": {
-    "url": "https://github.com/wkocjan/gatsby-theme-intro/issues"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   }
 }
