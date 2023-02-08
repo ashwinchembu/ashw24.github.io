@@ -48,7 +48,7 @@ class Index extends React.Component {
                 </p>
                 <ul className="actions">
                   <li>
-                    <Link to="/generic" className="button">
+                    <Link to="https://www.linkedin.com/in/ashwin-chembu-a5292b205/" className="button">
                       Learn More
                     </Link>
                   </li>
