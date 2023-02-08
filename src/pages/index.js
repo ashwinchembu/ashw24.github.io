@@ -69,21 +69,21 @@ class Index extends React.Component {
                 <span className="icon major style1 fa-diagram-project"></span>
                 <h3>Six Degrees of Kevin Bacon</h3>
                 <p>
-                  In this project, I developed a C++ program that utilizes a graph data structure and breadth-first search to find the shortest path between any two actors in the IMDb database. By constructing a graph of the relationships between actors based on the movies they have appeared in, the program is able to efficiently find the connection between any two actors and output the specific movies and co-actors that form the path. This project demonstrates my ability to design and implement a graph data structure and utilize it to solve a real-world problem, as well as my proficiency in C++ programming.
+                  In this project, I developed a C++ program that utilizes a graph data structure and breadth-first search to find the shortest path between any two actors in the IMDb database. 
                 </p>
               </li>
               <li>
                 <span className="icon major style3 fa-puzzle"></span>
                 <h3>Sudoku/SAT Solver</h3>
                 <p>
-                  I wrote a Python program that uses the boolean satisfiability (SAT) problem to solve Sudoku puzzles. Given a partially filled-in grid, the goal is to fill in the remaining cells such that every row, column, and 3x3 subgrid contains the digits 1 through 9 without repetitions. This problem can be represented as a boolean formula, where each cell corresponds to a boolean variable and the constraints are represented using logical clauses. I used the pycosat library to find a satisfying assignment and implemented a function to convert the boolean formula into conjunctive normal form using the Tseitin transformation.
+                  I wrote a Python program that uses the boolean satisfiability (SAT) problem to solve Sudoku puzzles. Given a partially filled-in grid, the goal is to fill in the remaining cells such that every row, column, and 3x3 subgrid contains the digits 1 through 9 without repetitions. 
                 </p>
               </li>
               <li>
                 <span className="icon major style5 fa-recycle"></span>
                 <h3>Sorta</h3>
                 <p>
-                  Sorta is a comprehensive waste management solution that provides a machine learning model to determine the waste type, SMS updates on recycling, trash, pollution, and the environment, a chatbot to assist with navigation, and general waste management information. Built with TensorFlow, the machine learning model was created with a focus on accuracy and reliability by collecting and training a large dataset of waste samples. Integrating the model into the website was a challenge, but we succeeded in creating a seamless and user-friendly experience. We are proud of its platform's success in making waste management easier and promoting sustainability and environmental awareness. In the future, Sorta plans to expand to reach more people and make a bigger impact by improving the accuracy and reliability of their machine-learning models, integrating them into other waste management systems, and making the program accessible through an app.
+                  Sorta is a comprehensive waste management solution that provides a machine learning model to determine the waste type, SMS updates on recycling, trash, pollution, and the environment, a chatbot to assist with navigation, and general waste management information. 
                 </p>
               </li>
             </ul>
@@ -100,13 +100,16 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>Work Experience</h2>
+/*
               <p>
                 Donec imperdiet consequat consequat. Suspendisse feugiat congue
                 <br />
                 posuere. Nulla massa urna, fermentum eget quam aliquet.
               </p>
+*/
             </header>
+/*
             <ul className="statistics">
               <li className="style1">
                 <span className="icon fa-code-fork"></span>
@@ -129,17 +132,9 @@ class Index extends React.Component {
                 <strong>1,024</strong> Nullam
               </li>
             </ul>
+            */
             <p className="content">
-              Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl
-              eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum
-              ac arcu sit amet, fermentum pellentesque et purus. Integer maximus
-              varius lorem, sed convallis diam accumsan sed. Etiam porttitor
-              placerat sapien, sed eleifend a enim pulvinar faucibus semper quis
-              ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer
-              eget purus nec nulla mattis et accumsan ut magna libero. Morbi
-              auctor iaculis porttitor. Sed ut magna ac risus et hendrerit
-              scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras
-              eu ornare dui curabitur lacinia.
+              I have had the opportunity to collaborate with cross-functional teams to identify and resolve bugs and technical issues. I was responsible for conducting thorough manual testing to validate the functionality and performance of software applications. My focus was always on improving software quality, and I was able to do this by detecting and reporting defects and recommending solutions. Additionally, I contributed to the improvement of software development processes by identifying areas for improvement and implementing changes. Through this work, I have developed a strong understanding of the software development lifecycle and have honed my ability to identify and resolve technical issues in a fast-paced environment.
             </p>
             <footer className="major">
               <ul className="actions">
@@ -154,23 +149,23 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
+              <h2>Contact Me</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
+               Thank you for visiting my website. If you would like to get in touch with me for any questions,
                 <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+               inquiries or to simply say hello, please don't hesitate to reach out. I'd be happy to hear from you!
               </p>
             </header>
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button special">
-                    Get Started
+                  <Link to="https://www.linkedin.com/in/ashwin-chembu-a5292b205/" className="button special">
+                    LinkedIn
                   </Link>
                 </li>
                 <li>
-                  <Link to="/generic" className="button">
-                    Learn More
+                  <Link to="mailto:ashchembu@gmail.com" className="button">
+                    Email
                   </Link>
                 </li>
               </ul>
