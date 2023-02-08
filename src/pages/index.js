@@ -108,10 +108,10 @@ class Index extends React.Component {
 
             </header>
             <p className="content">
-              - Collaborated with cross-functional teams to identify and resolve bugs and technical issues
+              - Collaborated with cross-functional teams to identify and resolve bugs and technical issues                           
 
               - Conducted thorough manual testing to validate the functionality and performance of software
-              applications
+              applications                                            
 
               - Improved software quality by detecting and reporting defects and recommending solutions
 
