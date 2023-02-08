@@ -138,7 +138,7 @@ class Index extends React.Component {
                   </Link>
                 </li>
                 <li>
-                  <href="mailto:ashchembu@gmail.com" className="button">
+                  <Link to="ashchembu@gmail.com" className="button">
                     Email
                   </Link>
                 </li>
