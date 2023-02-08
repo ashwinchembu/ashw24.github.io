@@ -80,7 +80,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-recycle"></span>
+                <span className="icon major fa-recycle"></span>
                 <h3>Sorta</h3>
                 <p>
                   Sorta is a comprehensive waste management solution that provides a machine learning model to determine the waste type, SMS updates on recycling, trash, pollution, and the environment, a chatbot to assist with navigation, and general waste management information. 
