@@ -66,14 +66,14 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major fa-diagram-project"></span>
+                <span className="fa-diagram-project"></span>
                 <h3>Six Degrees of Kevin Bacon</h3>
                 <p>
                   In this project, I developed a C++ program that utilizes a graph data structure and breadth-first search to find the shortest path between any two actors in the IMDb database. 
                 </p>
               </li>
               <li>
-                <span className="icon major fa-puzzle"></span>
+                <span className="fa-puzzle"></span>
                 <h3>Sudoku/SAT Solver</h3>
                 <p>
                   I wrote a Python program that uses the boolean satisfiability (SAT) problem to solve Sudoku puzzles. Given a partially filled-in grid, the goal is to fill in the remaining cells such that every row, column, and 3x3 subgrid contains the digits 1 through 9 without repetitions. 
@@ -113,7 +113,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
+                  <Link to="https://www.photoncommerce.com" className="button">
                     Learn More
                   </Link>
                 </li>
@@ -138,7 +138,7 @@ class Index extends React.Component {
                   </Link>
                 </li>
                 <li>
-                  <Link to="mailto:ashchembu@gmail.com" className="button">
+                  <href="mailto:ashchembu@gmail.com" className="button">
                     Email
                   </Link>
                 </li>
