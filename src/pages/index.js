@@ -26,7 +26,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="Ashwin Chembu - Software Developer" />
 
         <Header />
 
@@ -41,13 +41,10 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Welcome to my website</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                  My name is Ashwin Chembu and I am a Computer Engineering student at UC Santa Cruz with a competitive GPA and certifications in data science and cloud computing. I have developed a strong foundation in programming and a passion for technology, and I have 2-3 years of hands-on experience in customer service, data analytics, machine learning, and software development. I am highly motivated to continue learning and growing as a professional, and I am seeking internship opportunities in spring and summer 2023 to gain professional work experience and further develop my skills. I am a dedicated and hardworking individual with strong time management and teamwork skills, and I am eager to make a meaningful contribution to the field through the development of innovative tools and solutions. I am set to graduate in mid-2024, and my goal is to explore and contribute to the fields of data analytics, machine learning, and cybersecurity. If you are looking for a motivated intern with a solid foundation in computer science, a competitive GPA, and practical experience in a variety of technical fields, please don't hesitate to reach out. I am confident that my technical skills, strong work ethic, and dedication to learning make me a valuable asset to any team.
                 </p>
                 <ul className="actions">
                   <li>
@@ -65,39 +62,36 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Projects</h2>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+                <span className="icon major style1 fa-diagram-project"></span>
+                <h3>Six Degrees of Kevin Bacon</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  In this project, I developed a C++ program that utilizes a graph data structure and breadth-first search to find the shortest path between any two actors in the IMDb database. By constructing a graph of the relationships between actors based on the movies they have appeared in, the program is able to efficiently find the connection between any two actors and output the specific movies and co-actors that form the path. This project demonstrates my ability to design and implement a graph data structure and utilize it to solve a real-world problem, as well as my proficiency in C++ programming.
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
+                <span className="icon major style3 fa-puzzle"></span>
+                <h3>Sudoku/SAT Solver</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  I wrote a Python program that uses the boolean satisfiability (SAT) problem to solve Sudoku puzzles. Given a partially filled-in grid, the goal is to fill in the remaining cells such that every row, column, and 3x3 subgrid contains the digits 1 through 9 without repetitions. This problem can be represented as a boolean formula, where each cell corresponds to a boolean variable and the constraints are represented using logical clauses. I used the pycosat library to find a satisfying assignment and implemented a function to convert the boolean formula into conjunctive normal form using the Tseitin transformation.
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+                <span className="icon major style5 fa-recycle"></span>
+                <h3>Sorta</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Sorta is a comprehensive waste management solution that provides a machine learning model to determine the waste type, SMS updates on recycling, trash, pollution, and the environment, a chatbot to assist with navigation, and general waste management information. Built with TensorFlow, the machine learning model was created with a focus on accuracy and reliability by collecting and training a large dataset of waste samples. Integrating the model into the website was a challenge, but we succeeded in creating a seamless and user-friendly experience. We are proud of its platform's success in making waste management easier and promoting sustainability and environmental awareness. In the future, Sorta plans to expand to reach more people and make a bigger impact by improving the accuracy and reliability of their machine-learning models, integrating them into other waste management systems, and making the program accessible through an app.
                 </p>
               </li>
             </ul>
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
-                    Learn More
+                  <Link to="https://github.com/ashw24" className="button">
+                    More on My Github
                   </Link>
                 </li>
               </ul>
