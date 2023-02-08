@@ -66,14 +66,14 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-diagram-project"></span>
+                <span className="icon major fa-diagram-project"></span>
                 <h3>Six Degrees of Kevin Bacon</h3>
                 <p>
                   In this project, I developed a C++ program that utilizes a graph data structure and breadth-first search to find the shortest path between any two actors in the IMDb database. 
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-puzzle"></span>
+                <span className="icon major fa-puzzle"></span>
                 <h3>Sudoku/SAT Solver</h3>
                 <p>
                   I wrote a Python program that uses the boolean satisfiability (SAT) problem to solve Sudoku puzzles. Given a partially filled-in grid, the goal is to fill in the remaining cells such that every row, column, and 3x3 subgrid contains the digits 1 through 9 without repetitions. 
@@ -101,38 +101,12 @@ class Index extends React.Component {
           <section id="second" className="main special">
             <header className="major">
               <h2>Work Experience</h2>
-/*
+
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+                Photon Commerce
               </p>
-*/
+
             </header>
-/*
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
-              </li>
-            </ul>
-            */
             <p className="content">
               I have had the opportunity to collaborate with cross-functional teams to identify and resolve bugs and technical issues. I was responsible for conducting thorough manual testing to validate the functionality and performance of software applications. My focus was always on improving software quality, and I was able to do this by detecting and reporting defects and recommending solutions. Additionally, I contributed to the improvement of software development processes by identifying areas for improvement and implementing changes. Through this work, I have developed a strong understanding of the software development lifecycle and have honed my ability to identify and resolve technical issues in a fast-paced environment.
             </p>
