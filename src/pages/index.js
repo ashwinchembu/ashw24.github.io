@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpeg'
+import pic01 from '../assets/images/pic01.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -41,14 +41,17 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Welcome to my website</h2>
+                  <h2>Ipsum sed adipiscing</h2>
                 </header>
                 <p>
-                My name is Ashwin Chembu and I am a Computer Engineering student at UC Santa Cruz with a competitive GPA and certifications in data science and cloud computing. I have developed a strong foundation in programming and a passion for technology, and I have 2-3 years of hands-on experience in customer service, data analytics, machine learning, and software development. I am highly motivated to continue learning and growing as a professional, and I am seeking internship opportunities in spring and summer 2023 to gain professional work experience and further develop my skills. I am a dedicated and hardworking individual with strong time management and teamwork skills, and I am eager to make a meaningful contribution to the field through the development of innovative tools and solutions. I am set to graduate in mid-2024, and my goal is to explore and contribute to the fields of data analytics, machine learning, and cybersecurity. If you are looking for a motivated intern with a solid foundation in computer science, a competitive GPA, and practical experience in a variety of technical fields, please don't hesitate to reach out. I am confident that my technical skills, strong work ethic, and dedication to learning make me a valuable asset to any team.
+                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
+                  consequat magna adipiscing magna etiam amet veroeros. Lorem
+                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
+                  ipsum dolor sit amet aliquam.
                 </p>
                 <ul className="actions">
                   <li>
-                    <Link to="https://www.linkedin.com/in/ashwin-chembu-a5292b205/" className="button">
+                    <Link to="/generic" className="button">
                       Learn More
                     </Link>
                   </li>
@@ -62,7 +65,7 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Projects</h2>
+              <h2>Magna veroeros</h2>
             </header>
             <ul className="features">
               <li>
