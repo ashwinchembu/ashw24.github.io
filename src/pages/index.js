@@ -66,21 +66,21 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major fa-film"></span>
+                <Link to="https://github.com/ashw24/Projects/tree/main/C%2B%2B%20Projects%20-%20Data%20Structures%20and%20Algorithms/six-degrees-of-kevin-bacon" className="icon major fa-calculator"></Link>
                 <h3>Six Degrees of Kevin Bacon</h3>
                 <p>
                 In this project, I developed a C++ program that utilizes a graph data structure and breadth-first search to find the shortest path between any two actors in the IMDb database. 
                 </p>
               </li>
               <li>
-                <span className="icon major fa-calculator"></span>
+              <Link to="https://github.com/ashw24/Projects/blob/main/Python%20Projects(Data%20Structures%20and%20Algorithms)/Sudoku-SAT%20Solver.ipynb" className="icon major fa-film"></Link>
                 <h3>Sudoku/SAT Solver</h3>
                 <p>
                 I wrote a Python program that uses the boolean satisfiability (SAT) problem to solve Sudoku puzzles. Given a partially filled-in grid, the goal is to fill in the remaining cells such that every row, column, and 3x3 subgrid contains the digits 1 through 9 without repetitions. 
                 </p>
               </li>
               <li>
-                <span className="icon major fa-recycle"></span>
+              <Link to="https://www.s0rta.tech" className="icon major fa-recycle"></Link>
                 <h3>Sorta</h3>
                 <p>
                 Sorta is a comprehensive waste management solution that provides a machine learning model to determine the waste type, SMS updates on recycling, trash, pollution, and the environment, a chatbot to assist with navigation, and general waste management information. 
@@ -113,6 +113,7 @@ class Index extends React.Component {
             - Conducted thorough manual testing to validate the functionality and performance of software
             applications
             <br />
+            <br />
             - Improved software quality by detecting and reporting defects and recommending solutions
             <br />  
             - Contributed to the improvement of software development processes by identifying areas for
@@ -122,7 +123,7 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="https://www.photoncommerce.com" className="button">
-                  More on My Github
+                  Learn More
                   </Link>
                 </li>
               </ul>
@@ -146,7 +147,7 @@ class Index extends React.Component {
                   </Link>
                 </li>
                 <li>
-                  <Link to="ashchembu@gmail.com" className="button">
+                  <Link to="mailto:ashchembu@gmail.com" className="button">
                   Email
                   </Link>
                 </li>
