@@ -66,14 +66,14 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <Link to="https://github.com/ashw24/Projects/tree/main/C%2B%2B%20Projects%20-%20Data%20Structures%20and%20Algorithms/six-degrees-of-kevin-bacon" className="icon major fa-calculator"></Link>
+                <Link to="https://github.com/ashw24/Projects/tree/main/C%2B%2B%20Projects%20-%20Data%20Structures%20and%20Algorithms/six-degrees-of-kevin-bacon" className="icon major fa-film"></Link>
                 <h3>Six Degrees of Kevin Bacon</h3>
                 <p>
                 In this project, I developed a C++ program that utilizes a graph data structure and breadth-first search to find the shortest path between any two actors in the IMDb database. 
                 </p>
               </li>
               <li>
-              <Link to="https://github.com/ashw24/Projects/blob/main/Python%20Projects(Data%20Structures%20and%20Algorithms)/Sudoku-SAT%20Solver.ipynb" className="icon major fa-film"></Link>
+              <Link to="https://github.com/ashw24/Projects/blob/main/Python%20Projects(Data%20Structures%20and%20Algorithms)/Sudoku-SAT%20Solver.ipynb" className="icon major fa-calculator"></Link>
                 <h3>Sudoku/SAT Solver</h3>
                 <p>
                 I wrote a Python program that uses the boolean satisfiability (SAT) problem to solve Sudoku puzzles. Given a partially filled-in grid, the goal is to fill in the remaining cells such that every row, column, and 3x3 subgrid contains the digits 1 through 9 without repetitions. 

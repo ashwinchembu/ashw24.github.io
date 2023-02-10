@@ -4,31 +4,19 @@ import React from 'react'
 const Footer = props => (
   <footer id="footer">
     <section>
-      <h2>Aliquam sed mauris</h2>
+      <h2>Little About Me</h2>
       <p>
-        Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
-        magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras
-        aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae
-        tincidunt odio.
+      I am a highly motivated and competitive college student with a passion for technology and computer science. I have a solid foundation in these areas and possess certifications in data science and cloud computing, along with hands-on experience. I am a skilled time manager, a team player, and a dedicated individual who can listen carefully, complete tasks efficiently, and make meaningful contributions to a team. 
       </p>
-      <ul className="actions">
-        <li>
-          <Link to="/generic" className="button">
-            Learn More
-          </Link>
-        </li>
-      </ul>
     </section>
     <section>
-      <h2>Etiam feugiat</h2>
+      <h2>Contact Info</h2>
       <dl className="alt">
-        <dt>Address</dt>
-        <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
         <dt>Phone</dt>
-        <dd>(000) 000-0000 x 0000</dd>
+        <dd>(341) 356-1722</dd>
         <dt>Email</dt>
         <dd>
-          <a href="https://codebushi.com">information@untitled.tld</a>
+          <a href="mailto:ashchembu@gmail.com"></a>
         </dd>
       </dl>
       <ul className="icons">
