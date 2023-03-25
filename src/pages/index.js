@@ -73,10 +73,10 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-              <Link to="https://github.com/ashw24/Projects/blob/main/Python%20Projects(Data%20Structures%20and%20Algorithms)/Sudoku-SAT%20Solver.ipynb" className="icon major fa-calculator"></Link>
-                <h3>Sudoku/SAT Solver</h3>
+              <Link to="https://github.com/msaini26/election-turnout-civic-tech" className="icon major fa-car"></Link>
+                <h3>Drive The Vote</h3>
                 <p>
-                I wrote a Python program that uses the boolean satisfiability (SAT) problem to solve Sudoku puzzles. Given a partially filled-in grid, the goal is to fill in the remaining cells such that every row, column, and 3x3 subgrid contains the digits 1 through 9 without repetitions. 
+                The Drive the Vote web service utilizes a user-friendly interface that allows voters who need a ride to a polling place to view nearby volunteer drivers and request a ride. The interactive rideshare map is powered by Leaflet, an open-source JavaScript library for mobile-friendly interactive maps. Custom markers on the map indicate the location of volunteer drivers and polling places. The system also includes a form that allows volunteers to sign up to drive, an option to donate money, and a link to register to vote for those who have not done so. A backend API to handle registration emails, Twilio and ChatGPT was developed in python. 
                 </p>
               </li>
               <li>
