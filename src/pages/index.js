@@ -76,8 +76,7 @@ class Index extends React.Component {
               <Link to="https://github.com/msaini26/election-turnout-civic-tech" className="icon major fa-car"></Link>
                 <h3>Drive The Vote</h3>
                 <p>
-                The Drive the Vote web service utilizes a user-friendly interface that allows voters who need a ride to a polling place to view nearby volunteer drivers and request a ride. The interactive rideshare map is powered by Leaflet, an open-source JavaScript library for mobile-friendly interactive maps. Custom markers on the map indicate the location of volunteer drivers and polling places. The system also includes a form that allows volunteers to sign up to drive, an option to donate money, and a link to register to vote for those who have not done so. A backend API to handle registration emails, Twilio and ChatGPT was developed in python. 
-                </p>
+                Drive the Vote is a web service that offers a user-friendly interface for voters to request a ride to a polling place, powered by Leaflet, and includes custom markers indicating volunteer drivers and polling places, a volunteer sign-up form, donation options, a link to register to vote, and a Python-developed backend API that handles registration emails, Twilio and ChatGPT.                </p>
               </li>
               <li>
               <Link to="https://www.s0rta.tech" className="icon major fa-recycle"></Link>
